@@ -8,4 +8,6 @@ React Routing
     - npm install react-router-dom
     - set up the sign in router and provider in main.jsx
     - set up the diffrent routes
-    - set up cleak for authentication
+    - set up cleark for authentication
+Header
+    - 

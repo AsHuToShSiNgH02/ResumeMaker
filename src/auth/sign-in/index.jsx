@@ -1,9 +1,11 @@
+import Header from '@/components/custom/Header'
+import { SignIn } from '@clerk/clerk-react'
 import React from 'react'
 
 export default function SignInPage() {
   return (
-    <div>
-        SignInPage asg sdgas
+    <div className='flex justify-center mt-36 items-center'>
+        <SignIn/>
     </div>
   )
 }
