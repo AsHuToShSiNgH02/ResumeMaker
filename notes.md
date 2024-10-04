@@ -10,4 +10,8 @@ React Routing
     - set up the diffrent routes
     - set up cleark for authentication
 Header
-    - 
+    - make Header 
+strapi Backend with Vercel Postgres
+    - setup strapi by running the command
+            // INFO: npx create-strapi-app@rc
+    - take help of CHAT GPT or document to do so

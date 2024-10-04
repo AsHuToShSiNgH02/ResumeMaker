@@ -6,14 +6,15 @@ import { UserButton, useUser } from '@clerk/clerk-react'
 export default function Header() {
     const {user, isSignedIn,isLoaded} = useUser();
     return (
-        <div className='p-3 px-5 flex justify-between shadow-md'>
+        <header className="sticky top-0 z-50 bg-white shadow-md">
+        <div className='flex justify-between p-3 px-5 shadow-md'>
             <div className='flex'>
                 <img src='/logo.svg' width={40} height={40}/>
-                <span className='content-center ml-2 font-bold text-lg'>ResumeMaker</span>
+                <span className='content-center ml-2 text-lg font-bold'>ResumeMaker</span>
             </div>
             
             {isSignedIn? 
-                <div className='flex gap-2 items-center'>
+                <div className='flex items-center gap-2'>
                     <Link to={'/dashboard'}>
                         <Button variant='outline'>Dashboard</Button>
                     </Link>
@@ -23,7 +24,7 @@ export default function Header() {
                     <Button>Get Started</Button>
                 </Link>
             }
-            
         </div>
+        </header>
     )
 }
