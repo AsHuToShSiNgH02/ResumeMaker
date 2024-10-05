@@ -55,11 +55,11 @@ function Summery({enabledNext}) {
     <div>
          <div className='p-5 mt-10 border-t-4 rounded-lg shadow-lg border-t-primary'>
         <h2 className='text-lg font-bold'>Summery</h2>
-        <p>Add Summery for your job title</p>
+        <p>Add Summary for your job title</p>
 
         <form className='mt-7' onSubmit={onSave}>
             <div className='flex items-end justify-between'>
-                <label>Add Summery</label>
+                <label>Add Summary</label>
                 <Button variant="outline" onClick={()=>GenerateSummeryFromAI()} 
                 type="button" size="sm" className="flex gap-2 border-primary text-primary"> 
                 <Brain className='w-4 h-4' />  Generate from AI</Button>
