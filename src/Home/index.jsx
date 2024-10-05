@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <main className="container flex-grow px-4 py-12 mx-auto">
         <section className="mb-16 text-center">
-          <h1 className="mb-4 text-6xl font-bold">Build Your Resume <span className='text-gray-600'> With AI</span></h1>
+          <h1 className="mb-4 text-6xl font-bold">Build Your Resume <span className='text-gray-500'> With AI</span></h1>
           <p className="mb-8 text-xl text-gray-600">Effortlessly Craft a Standout Resume with our AI-Powered Builder</p>
           
         </section>
