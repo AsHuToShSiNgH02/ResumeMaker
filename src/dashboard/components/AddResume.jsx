@@ -59,7 +59,7 @@ function AddResume() {
                     <DialogHeader>
                         <DialogTitle>Create New Resume</DialogTitle>
                         <DialogDescription>
-                        <p>Add titile for your new resume</p>
+                        <p>Add title for your new resume</p>
                         <Input className='my-2' 
                             placeholder="Ex.Full Stack resume"
                             onChange={(e) => setResumeTitle(e.target.value)}
